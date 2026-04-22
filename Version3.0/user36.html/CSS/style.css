@@ -33,3 +33,7 @@ ol {
 	list-style-type: normal;
 	padding-left: 25px;
 }
+
+button:hover {
+  color: blue;
+}
