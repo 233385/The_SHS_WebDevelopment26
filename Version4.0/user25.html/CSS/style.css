@@ -1,3 +1,5 @@
+@import url(rainbow.css);
+
 .button {
 	background-color: #4CAF50;
 	border: none;
@@ -73,4 +75,20 @@ table{
 
 h1, h2, h3, h4, h5, h6{
 	text-align:center;
+}
+
+#rainbow td:hover {
+  background-color: black;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+li:hover {
+  transform: scale(1.1);
 }
