@@ -1,3 +1,4 @@
+@import url(rainbow.css);
 .button {
 	background-color: #24bfd4;
 	border: none;
@@ -69,7 +70,7 @@ h1, h2, h3, h4, h5, h6{
     border: 2px solid black;
 }
 
-<a href="#" class="myButton">blue</a>
+<a <href>"#">blue</a>
 
 .title{
     color: red;
@@ -106,6 +107,25 @@ h1, h2, h3, h4, h5, h6{
 .myButton:active {
 	position:relative;
 	top:1px;
+} p + * {
+    background-color: #FFFF00;
+}
+div li::marker{
+    color: red;
+}
+div li::marker{
+    content:"😜 ";
+}
+td:hover {
+    background-color: black;
+}
+div:hover {
+    background-color: blue;
+}
+div:hover {
+    color: #00ffbf;
+}
+div:hover {
+    text-decoration: underline;
 }
 
-        
