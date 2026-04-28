@@ -112,7 +112,7 @@ button:hover {
 #knowledge > * {
   border: 3px red solid;
 }
-p + * {
+#amazing + * {
   background-color: #FFFF00;
 }
 
@@ -137,5 +137,9 @@ td:hover {
 }
 
 .button5 :focus{
-background-color: darkred;
+background-color: rgb(32, 173, 93);
+}
+
+#pond{
+	align-content: center;
 }
