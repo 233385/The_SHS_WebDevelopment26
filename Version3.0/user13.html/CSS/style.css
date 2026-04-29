@@ -33,3 +33,11 @@ body {
 	border: 3px inset rgb(239, 192, 24);;
 	text-shadow: 2px 2px 5px rgb(119, 105, 79);
 }
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ul {
+	list-style-image: url(/Users/234477/Desktop/WebDev\ 2026/The_SHS_WebDevelopment26/Version3.0/user13.html/images/Dictionary.png );
+}
