@@ -40,12 +40,12 @@
         .demo-content {
             padding: 15px;
             font-size: 18px;
-            background: #dbdfe5;
+            background: #6eff07;
             margin-bottom: 15px;
         }
         
         .demo-content.bg-alt {
-            background: #abb1b8;
+            background: #0077ff;
         }
     </style>
 
@@ -57,20 +57,44 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+    
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav me-auto">
                         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your NavBar ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">Home</a>
+                            <a href="#" class="nav-link active" colgroup></colgroup>Home</a>  
+                           <style>
+                            .nav-link.active {
+                                font-weight: bold;
+                                color: #15ff00;
+                            }
+                            .nav-link.active::after {
+                                content: '';
+                                display: block;
+                                width: 100%;
+                                height: 2px;
+                                background-color: #15ff00;
+                                margin-top: 5px;
+                            }
+                            .nav-link.active:hover {
+                                color: #15ff00;
+                            }
+                            .nav-link.nav-link.active:hover::after {
+                                background-color: #0004ff;
+                            }
+                        
+                            
+</style>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Link
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                               <flex-wrap: nowrap;
+                                justify-content: flex-start;>   </flex-wrap:>
+                                <li><a class="dropdown-item" href="#">Cool Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another Cool Action</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -84,9 +108,10 @@
                             <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-link disabled" tabindex="-1">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a href="form.html" class="btn btn-success btn-lg" role="button" aria-pressed="true">Form Page</a>
+                            <a href="form.html" class="btn btn-success btn-lg" role="button" aria-pressed="true">Form Page</a> 
                         </li>
                         <nav class="navbar bg-body-tertiary">
+                            
 <div class="container-fluid">
     <form class="d-flex input-group w-auto"bg-dark>
       <input
