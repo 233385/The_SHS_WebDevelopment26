@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>WebDev | Final Master Project</title>
+    <title>WebDev | The Final Master Project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -34,7 +34,7 @@
             border: none !important;
         }
 
-        /* --- DARK GRADIENT BOX (Matched to your screenshot) --- */
+        /* --- DARK GRADIENT BOX --- */
         .gray-gradient-box {
             background: linear-gradient(180deg, #32383e 0%, #1e2125 100%);
             color: #ffffff !important;
@@ -70,22 +70,30 @@
 <body>
     <audio id="bg-music" src="aquatic.mp3" loop></audio>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient shadow">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand fw-bold">WebDev</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <a class="navbar-brand fw-bold" href="#">WebDev</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
                 </ul>
-                <button class="btn btn-primary rounded-pill px-4 btn-flip" type="button">Login</button>
+                <button class="btn btn-primary rounded-pill px-4 btn-flip ms-lg-3" type="button">Login</button>
             </div>
         </div>
     </nav>
-
     <header class="p-5 rainbow-animated text-center shadow-sm">
         <div class="container">
             <h1 class="display-4 fw-bold text-white">Bootstrap Examples</h1>
@@ -98,6 +106,11 @@
         <div class="row">
             <div class="col-md-6"><div class="demo-content">.col-md-6</div></div>
             <div class="col-md-6"><div class="demo-content bg-alt">.col-md-6</div></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"><div class="demo-content">.col-md-4</div></div>
+            <div class="col-md-8"><div class="demo-content bg-alt">.col-md-8</div></div>
         </div>
 
         <h3 class="mt-5 mb-3">Data Table</h3>
